@@ -1,3 +1,5 @@
+//to install Axios run: npm install axios
+
 import axios from 'axios';    
 axios.get("https://dht-11-7fe63-default-rtdb.firebaseio.com")
         .then(response => {
